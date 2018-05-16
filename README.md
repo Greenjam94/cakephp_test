@@ -64,3 +64,11 @@ Removed the following files:
  - cms/.gitignore
  - cms/.gitattributes
  - cms/.editorconfig
+
+# CMS tutorial
+
+Already did the installation step.
+
+## Creating the database
+
+Copy and pasted as following along with the [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/database.html)
