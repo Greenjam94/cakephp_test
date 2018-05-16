@@ -17,4 +17,6 @@ Vagrant.configure("2") do |config|
     type: "virtualbox",
     mount_options: ["dmode=775,fmode=755"]
   end
+
+  config.vm.provision :shell, path: "setup/bootstrap.sh"
 end
