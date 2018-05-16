@@ -81,3 +81,7 @@ Following along with the [tutorial](https://book.cakephp.org/3.0/en/tutorials-an
 
 Following along with the next [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/tags-and-users.html)
 bake requires sudo
+
+## Authentication
+
+Following along with the last CMS [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/authentication.html)
