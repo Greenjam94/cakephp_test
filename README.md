@@ -72,3 +72,12 @@ Already did the installation step.
 ## Creating the database
 
 Copy and pasted as following along with the [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/database.html)
+
+## Creating the controller
+
+Following along with the [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/articles-controller.html)
+
+## Tags and Users
+
+Following along with the next [tutorial](https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/tags-and-users.html)
+bake requires sudo

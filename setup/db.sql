@@ -1,6 +1,7 @@
-CREATE DATABASE `cakephp` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS `cakephp` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `cakephp`;
 
+DROP TABLE IF EXISTS users;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
@@ -9,6 +10,7 @@ CREATE TABLE users (
     modified DATETIME
 );
 
+DROP TABLE IF EXISTS articles;
 CREATE TABLE articles (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
@@ -22,6 +24,7 @@ CREATE TABLE articles (
     FOREIGN KEY user_key (user_id) REFERENCES users(id)
 ) CHARSET=utf8mb4;
 
+DROP TABLE IF EXISTS tags;
 CREATE TABLE tags (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(191),
@@ -30,6 +33,7 @@ CREATE TABLE tags (
     UNIQUE KEY (title)
 ) CHARSET=utf8mb4;
 
+DROP TABLE IF EXISTS articles_tags;
 CREATE TABLE articles_tags (
     article_id INT NOT NULL,
     tag_id INT NOT NULL,
